@@ -1,0 +1,68 @@
+﻿body {
+    font: 12px/1.66 Arial, Helvetica, sans-serif; 
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td {margin: 0;padding: 0;}
+ul li,ol li{ list-style: none;}
+a{ text-decoration: none;}
+
+.main-page{ width: 1194px;margin: 0 auto;}
+
+.page-body{ overflow: hidden;}
+.page-body .logo{ margin:0 0 0 10px;width: 277px;height: 79px;background: url(../images/logo.png?v=1.1) no-repeat;}
+.page-body .app-splash{ overflow: hidden;}
+.page-body .app-splash .swf-wrap{ overflow: hidden;}
+
+.page-body .app-list{ padding: 70px 0 20px 35px;overflow: hidden;}
+.page-body .app-list .app{ display: block;font: normal 14px/22px "Microsoft YaHei";}
+.page-body .app-list .app .app_conta{ height: 190px;}
+.page-body .app-list .app td{display: inline-block;text-align: center;}
+.page-body .app-list .app td .outer_border{ display: inline-block;padding: 20px;border-radius: 50%;
+	-webkit-transition: all ease .3s;
+	transition: all ease .3s}
+.page-body .app-list .app td .outer_border.m_hover{ border: 1px solid #C1E7FF;}
+.page-body .app-list .app td .outer_border .inner_shadow{
+    border-radius: 50%;
+    padding: 10px;
+	-webkit-transition: all ease .3s;
+	transition: all ease .3s
+}
+.page-body .app-list .app td .outer_border .inner_shadow:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+    border-color: #C1E7FF;
+    background-color: #C1E7FF;
+}
+
+
+.page-body .app-list .app td .outer_border a{border-radius: 50%;width: 128px;height: 128px;display: block;}
+.page-body .app-list .app td .outer_border a.dangzhengyun{ background: url('../images/dangzhengyun.png') no-repeat;}
+.page-body .app-list .app td .outer_border a.sifayun{ background: url('../images/sifayun.png') no-repeat;}
+.page-body .app-list .app td .outer_border a.xingyeyun{ background: url('../images/xingyeyun.png') no-repeat;}
+.page-body .app-list .app td .outer_border a.bianminyun{ background: url('../images/bianminyun.png') no-repeat;}
+.page-body .app-list .app td .outer_border a.weizhiyun{ background: url('../images/weizhiyun.png') no-repeat;}
+                          
+.page-body .app-list .app td h1{ padding-top: 20px;padding-bottom: 10px;font-family: "Microsoft YaHei";}
+.page-body .app-list .app td h1.dz{ color: #C75C5C;}
+.page-body .app-list .app td h1.sf{ color: #E0995E;}
+.page-body .app-list .app td h1.xy{ color: #4F5D73;}
+.page-body .app-list .app td h1.bm{ color: #77B2D3;}
+.page-body .app-list .app td h1.wz{ color: #76C1AE;}
+.page-body .app-list .app td span{ color: #CCCCCC;font-family: "Arial";font-size: 15px;display: block;text-align: center;}
+.page-body .app-list .app td p{ color: #999999;font-family: "Microsoft YaHei";font-size: 14px;padding: 5px 38px;text-align: left;height: 130px;width: 150px;}
+
+.page-body .app-list .en-name{ float: left;text-align: right;width: 135px;margin-top: 227px;}
+.page-body .app-list .summary{ float: left;width: 165px;margin-top: 180px;}
+
+.bottom-nav{ background-color: #e0e0e0;height: 60px;border-bottom: solid 2px #707070;}
+.bottom-nav .nav-links{ margin-left: 100px;}
+.bottom-nav .nav-links li{ float: left;padding: 10px 120px 0;font: bold 18px/50px "Microsoft YaHei";}
+.bottom-nav .nav-links li.act{ background: url(../images/nav-act-bg.png) no-repeat 136px -40px;}
+.bottom-nav .nav-links li a{ color: #333333;text-decoration: none;}
+
+.page-footer{ height: 31px;line-height: 31px; border-top: solid 1px #969696;background-color: #4a4a4a;color: #fff;}
+.page-footer a { color: #fff; }
+.page-footer .ft-logo{ float: left;margin:3px 0 0 73px;width: 194px;height: 25px; background: url(../images/ft-logo.png?v=1.0) no-repeat;}
+.page-footer .ft-links{ float: left;margin-left: 16px;overflow: hidden;}
+.page-footer .ft-links a{ padding: 0 4px;}
+.page-footer .ft-copyright{ float: right;padding-right: 20px;}
+.page-footer .ft-copyright .power{ color: #aaaaaa;padding-right: 15px;}
